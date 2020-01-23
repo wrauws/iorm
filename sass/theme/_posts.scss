@@ -1,0 +1,18 @@
+
+// the scss for the posts
+
+//general
+article.common-post {
+  height: 100%;
+  max-height: 264px;
+  margin-bottom: 178px;
+  .post-thumbnail img {
+    width: 562px;
+    height: 264px;
+    object-fit: cover;
+  }
+  .posted-on {
+    margin-left: 66px;
+  }
+}
+

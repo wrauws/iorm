@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a27008b9-04e1-4ee9-9a39-0b40aa10dc9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1WhQwC7DoWRXvDI5r5VKX2qMKLS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loop-templates" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loop-templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a27008b9-04e1-4ee9-9a39-0b40aa10dc9d" name="Default Changelist" comment="" />
+      <created>1579599582925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579599582925</updated>
+      <workItem from="1579599587569" duration="6446000" />
+      <workItem from="1579685949523" duration="13143000" />
+      <workItem from="1579770031664" duration="14276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1132" height="284" key="GridCell.Tab.0.bottom" timestamp="1579600092025">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1132" height="284" key="GridCell.Tab.0.bottom/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579600092025" />
+    <state width="1132" height="284" key="GridCell.Tab.0.center" timestamp="1579600092025">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1132" height="284" key="GridCell.Tab.0.center/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579600092025" />
+    <state width="1132" height="284" key="GridCell.Tab.0.left" timestamp="1579600092025">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1132" height="284" key="GridCell.Tab.0.left/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579600092025" />
+    <state width="1132" height="284" key="GridCell.Tab.0.right" timestamp="1579600092025">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1132" height="284" key="GridCell.Tab.0.right/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579600092025" />
+    <state x="3031" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1579770032856">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3031" y="367" key="com.intellij.ide.util.TipDialog/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579770032856" />
+    <state x="2574" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1579783705504">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2574" y="239" width="672" height="678" key="search.everywhere.popup/62.27.1858.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579783705504" />
+  </component>
+</project>
