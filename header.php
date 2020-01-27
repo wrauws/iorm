@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div id="header-wrapper">
 	<div class="uu-bar">
-		! UU Branding
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/uu-logo.svg" />
 	</div><!-- .uu-bar -->
 
 	<div class="menus">
@@ -56,8 +56,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 				$menu_setting = array (
 					'theme_location' => 'social_menu',
 				);
-				wp_nav_menu( $menu_setting );
+				//wp_nav_menu( $menu_setting );
 			?>
 		</div><!-- .social-media -->
 	</div><!-- .menus -->
 </div><!-- #header-wrapper .col-auto -->
+
+
+<div class="wrapper" id="archive-wrapper">
+
+	<div id="site-title">
+		<h1><?php bloginfo('name'); ?></h1>
+	</div>
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+
+		<div class="row">
+			
+
+			<header class="page-header clearfix">
+
+				<div class="uu-logo-mobile visible-xs">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/uu-logo.svg" />
+				</div><!-- .uu-logo-mobile -->
