@@ -1,0 +1,22 @@
+.blog-item {
+
+	article {
+		position: relative;
+		background-size: cover;
+	    background-position: center;
+	    height: 440px;
+	}
+	.blog-content {
+		padding: $padding;
+		background: $light-grey;
+		bottom: 0;
+    	position: absolute;
+    	h2 {
+    		font-size: 20px;
+    	}
+	}
+	.post-excerpt p {
+		font-size: 12px;
+		font-family: $sans;
+	}
+}

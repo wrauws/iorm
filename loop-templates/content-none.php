@@ -15,11 +15,11 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="page-header">
 
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'understrap' ); ?></h1>
+		<h1><?php esc_html_e( 'Nothing Found', 'understrap' ); ?></h1>
 
 	</header><!-- .page-header -->
 
-	<div class="page-content">
+	<!-- <div class="page-content">
 
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>

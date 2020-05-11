@@ -48,6 +48,7 @@ if ( ! function_exists ( 'understrap_setup' ) ) {
 			'primary_menu' 		=> __('Primary Menu', 'understrap'),
 			'secondary_menu' 	=> __('Secondary Menu', 'understrap'),
 			'social_menu' 		=> __('Social Menu', 'understrap'),
+			'footer_menu' 		=> __('Footer Menu', 'understrap'),
 		) );
 
 		/*
@@ -138,3 +139,75 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 		return $post_excerpt;
 	}
 }
+
+
+function cptui_register_my_cpts_events() {
+
+	/**
+	 * Post Type: Events.
+	 */
+
+	$labels = [
+		"name" => __( "Events", "understrap" ),
+		"singular_name" => __( "Event", "understrap" ),
+		"menu_name" => __( "Events", "understrap" ),
+		"all_items" => __( "All Events", "understrap" ),
+		"add_new" => __( "Add new", "understrap" ),
+		"add_new_item" => __( "Add new Event", "understrap" ),
+		"edit_item" => __( "Edit Event", "understrap" ),
+		"new_item" => __( "New Event", "understrap" ),
+		"view_item" => __( "View Event", "understrap" ),
+		"view_items" => __( "View Events", "understrap" ),
+		"search_items" => __( "Search Events", "understrap" ),
+		"not_found" => __( "No Events found", "understrap" ),
+		"not_found_in_trash" => __( "No Events found in trash", "understrap" ),
+		"parent" => __( "Parent Event:", "understrap" ),
+		"featured_image" => __( "Featured image for this Event", "understrap" ),
+		"set_featured_image" => __( "Set featured image for this Event", "understrap" ),
+		"remove_featured_image" => __( "Remove featured image for this Event", "understrap" ),
+		"use_featured_image" => __( "Use as featured image for this Event", "understrap" ),
+		"archives" => __( "Event archives", "understrap" ),
+		"insert_into_item" => __( "Insert into Event", "understrap" ),
+		"uploaded_to_this_item" => __( "Upload to this Event", "understrap" ),
+		"filter_items_list" => __( "Filter Events list", "understrap" ),
+		"items_list_navigation" => __( "Events list navigation", "understrap" ),
+		"items_list" => __( "Events list", "understrap" ),
+		"attributes" => __( "Events attributes", "understrap" ),
+		"name_admin_bar" => __( "Event", "understrap" ),
+		"item_published" => __( "Event published", "understrap" ),
+		"item_published_privately" => __( "Event published privately.", "understrap" ),
+		"item_reverted_to_draft" => __( "Event reverted to draft.", "understrap" ),
+		"item_scheduled" => __( "Event scheduled", "understrap" ),
+		"item_updated" => __( "Event updated.", "understrap" ),
+		"parent_item_colon" => __( "Parent Event:", "understrap" ),
+	];
+
+	$args = [
+		"label" => __( "Events", "understrap" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => "events",
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "event", "with_front" => false ],
+		"query_var" => true,
+		"menu_position" => 5,
+		"supports" => [ "title", "editor", "thumbnail", "excerpt", "author" ],
+		"taxonomies" => [ "rw_theme", "event_category" ],
+	];
+
+	register_post_type( "events", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_events' );

@@ -1,0 +1,100 @@
+.button {
+  border: 1px solid $mobile-border;
+   border-radius: 40px;
+   padding: 12px 20px;
+   display: block;
+    @include media-breakpoint-down(xs) {
+      font-size: 11px;
+    }
+}
+
+.readmore {
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  @include media-breakpoint-down(lg) {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  svg {
+    float: right;
+    margin-top: 4px;
+    height: 14px;
+    width: auto;
+    path {
+      fill: $primary;
+    }
+
+  }
+  &:hover {
+    background-color: $black;
+    color: #fff;
+  }
+}
+
+.podcast-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/play-icon.svg');
+    background-repeat: no-repeat;
+    @include media-breakpoint-down(xs) {
+        // bottom: 10px;
+        // left: 10px;
+        // width: 50px;
+        // height: 50px;
+    }
+}
+
+
+.button-back {
+  position: relative;
+  color: $white;
+  background: $black;
+  float: right;
+    display: inline-block;
+    padding: 15px 40px 15px 30px;
+    width: 410px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    span {
+      float: left;
+      display: inline-block;
+      width: 16px;
+      height: 10px;
+      margin-top: 10px;
+      color: $primary;
+      background-image: url('../images/arrow-left.svg');
+
+    }
+     @include media-breakpoint-down(xs) {
+      width: 100%;
+      float: none;
+      .single & {
+        color: $black ;
+        background: $white;
+        border: 1px solid $black;
+      }
+     }
+}
+
+.navbar-button-back {
+  position: absolute;
+  top: $side-padding;
+  right: 10px;
+  padding: 10px $side-padding;
+  margin-top: 4px;
+  img {
+    height: 18px;
+    width: auto;
+   display: block;
+  }
+  
+}

@@ -20,12 +20,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div><!-- #archive-wrapper -->
 
 
-<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
+
 
 
 <!-- footer content here -->
 
 </div><!-- #page in the header -->
+
+<?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
+
+
 
 <?php wp_footer(); ?>
 
